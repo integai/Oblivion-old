@@ -2,13 +2,11 @@
 #define BLOCKCHAIN_H
 
 #include <vector>
-#include "Block.h"
+#include "block.h"
 
 class Blockchain {
 public:
     Blockchain();
-
-private:
     int difficulty;
     std::vector<Block> chain;
 
