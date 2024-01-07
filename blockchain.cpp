@@ -1,17 +1,14 @@
 #include <vector>
 #include <ctime>
-#include "Block.cpp"
+#include "block.h"
 #include <iostream>
 using namespace std;
 
 class Blockchain {
 public:
     Blockchain();
-
-private:
     int difficulty;
     vector<Block> chain;
-
     Block createGenesisBlock() const;
     Block getLatestBlock() const;
     bool isChainValid() const;
