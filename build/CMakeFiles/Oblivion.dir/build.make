@@ -73,64 +73,109 @@ CMakeFiles/Oblivion.dir/main.cpp.o: CMakeFiles/Oblivion.dir/flags.make
 CMakeFiles/Oblivion.dir/main.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp
 CMakeFiles/Oblivion.dir/main.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Oblivion.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/main.cpp.o -MF CMakeFiles/Oblivion.dir/main.cpp.o.d -o CMakeFiles/Oblivion.dir/main.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/main.cpp.o -MF CMakeFiles/Oblivion.dir/main.cpp.o.d -o CMakeFiles/Oblivion.dir/main.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp
 
 CMakeFiles/Oblivion.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp > CMakeFiles/Oblivion.dir/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp > CMakeFiles/Oblivion.dir/main.cpp.i
 
 CMakeFiles/Oblivion.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp -o CMakeFiles/Oblivion.dir/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/main.cpp -o CMakeFiles/Oblivion.dir/main.cpp.s
 
 CMakeFiles/Oblivion.dir/blockchain.cpp.o: CMakeFiles/Oblivion.dir/flags.make
 CMakeFiles/Oblivion.dir/blockchain.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp
 CMakeFiles/Oblivion.dir/blockchain.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Oblivion.dir/blockchain.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/blockchain.cpp.o -MF CMakeFiles/Oblivion.dir/blockchain.cpp.o.d -o CMakeFiles/Oblivion.dir/blockchain.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/blockchain.cpp.o -MF CMakeFiles/Oblivion.dir/blockchain.cpp.o.d -o CMakeFiles/Oblivion.dir/blockchain.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp
 
 CMakeFiles/Oblivion.dir/blockchain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/blockchain.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp > CMakeFiles/Oblivion.dir/blockchain.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp > CMakeFiles/Oblivion.dir/blockchain.cpp.i
 
 CMakeFiles/Oblivion.dir/blockchain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/blockchain.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp -o CMakeFiles/Oblivion.dir/blockchain.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/blockchain.cpp -o CMakeFiles/Oblivion.dir/blockchain.cpp.s
 
 CMakeFiles/Oblivion.dir/block.cpp.o: CMakeFiles/Oblivion.dir/flags.make
 CMakeFiles/Oblivion.dir/block.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp
 CMakeFiles/Oblivion.dir/block.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Oblivion.dir/block.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/block.cpp.o -MF CMakeFiles/Oblivion.dir/block.cpp.o.d -o CMakeFiles/Oblivion.dir/block.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/block.cpp.o -MF CMakeFiles/Oblivion.dir/block.cpp.o.d -o CMakeFiles/Oblivion.dir/block.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp
 
 CMakeFiles/Oblivion.dir/block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/block.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp > CMakeFiles/Oblivion.dir/block.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp > CMakeFiles/Oblivion.dir/block.cpp.i
 
 CMakeFiles/Oblivion.dir/block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/block.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp -o CMakeFiles/Oblivion.dir/block.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/block.cpp -o CMakeFiles/Oblivion.dir/block.cpp.s
 
 CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o: CMakeFiles/Oblivion.dir/flags.make
 CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp
 CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o -MF CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o.d -o CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o -MF CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o.d -o CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp
 
 CMakeFiles/Oblivion.dir/crypto/sha256.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/crypto/sha256.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp > CMakeFiles/Oblivion.dir/crypto/sha256.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp > CMakeFiles/Oblivion.dir/crypto/sha256.cpp.i
 
 CMakeFiles/Oblivion.dir/crypto/sha256.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/crypto/sha256.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp -o CMakeFiles/Oblivion.dir/crypto/sha256.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/crypto/sha256.cpp -o CMakeFiles/Oblivion.dir/crypto/sha256.cpp.s
+
+CMakeFiles/Oblivion.dir/launch.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/launch.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/launch.cpp
+CMakeFiles/Oblivion.dir/launch.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Oblivion.dir/launch.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/launch.cpp.o -MF CMakeFiles/Oblivion.dir/launch.cpp.o.d -o CMakeFiles/Oblivion.dir/launch.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/launch.cpp
+
+CMakeFiles/Oblivion.dir/launch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/launch.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/launch.cpp > CMakeFiles/Oblivion.dir/launch.cpp.i
+
+CMakeFiles/Oblivion.dir/launch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/launch.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/launch.cpp -o CMakeFiles/Oblivion.dir/launch.cpp.s
+
+CMakeFiles/Oblivion.dir/transaction.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/transaction.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.cpp
+CMakeFiles/Oblivion.dir/transaction.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Oblivion.dir/transaction.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/transaction.cpp.o -MF CMakeFiles/Oblivion.dir/transaction.cpp.o.d -o CMakeFiles/Oblivion.dir/transaction.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.cpp
+
+CMakeFiles/Oblivion.dir/transaction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/transaction.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.cpp > CMakeFiles/Oblivion.dir/transaction.cpp.i
+
+CMakeFiles/Oblivion.dir/transaction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/transaction.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/transaction.cpp -o CMakeFiles/Oblivion.dir/transaction.cpp.s
+
+CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o: CMakeFiles/Oblivion.dir/flags.make
+CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o: /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.cpp
+CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o: CMakeFiles/Oblivion.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o -MF CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o.d -o CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o -c /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.cpp
+
+CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.cpp > CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.i
+
+CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/oblivisheee/Documents/GitHub/Oblivion/utils/isBlockValid.cpp -o CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.s
 
 # Object files for target Oblivion
 Oblivion_OBJECTS = \
 "CMakeFiles/Oblivion.dir/main.cpp.o" \
 "CMakeFiles/Oblivion.dir/blockchain.cpp.o" \
 "CMakeFiles/Oblivion.dir/block.cpp.o" \
-"CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o"
+"CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o" \
+"CMakeFiles/Oblivion.dir/launch.cpp.o" \
+"CMakeFiles/Oblivion.dir/transaction.cpp.o" \
+"CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o"
 
 # External object files for target Oblivion
 Oblivion_EXTERNAL_OBJECTS =
@@ -139,11 +184,14 @@ Oblivion: CMakeFiles/Oblivion.dir/main.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/blockchain.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/block.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/crypto/sha256.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/launch.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/transaction.cpp.o
+Oblivion: CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o
 Oblivion: CMakeFiles/Oblivion.dir/build.make
 Oblivion: /opt/homebrew/Cellar/openssl@3/3.2.0_1/lib/libssl.dylib
 Oblivion: /opt/homebrew/Cellar/openssl@3/3.2.0_1/lib/libcrypto.dylib
 Oblivion: CMakeFiles/Oblivion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Oblivion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/oblivisheee/Documents/GitHub/Oblivion/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Oblivion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Oblivion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

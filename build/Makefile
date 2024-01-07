@@ -214,6 +214,30 @@ crypto/sha256.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/crypto/sha256.cpp.s
 .PHONY : crypto/sha256.cpp.s
 
+launch.o: launch.cpp.o
+.PHONY : launch.o
+
+# target to build an object file
+launch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/launch.cpp.o
+.PHONY : launch.cpp.o
+
+launch.i: launch.cpp.i
+.PHONY : launch.i
+
+# target to preprocess a source file
+launch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/launch.cpp.i
+.PHONY : launch.cpp.i
+
+launch.s: launch.cpp.s
+.PHONY : launch.s
+
+# target to generate assembly for a file
+launch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/launch.cpp.s
+.PHONY : launch.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -238,6 +262,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+transaction.o: transaction.cpp.o
+.PHONY : transaction.o
+
+# target to build an object file
+transaction.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/transaction.cpp.o
+.PHONY : transaction.cpp.o
+
+transaction.i: transaction.cpp.i
+.PHONY : transaction.i
+
+# target to preprocess a source file
+transaction.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/transaction.cpp.i
+.PHONY : transaction.cpp.i
+
+transaction.s: transaction.cpp.s
+.PHONY : transaction.s
+
+# target to generate assembly for a file
+transaction.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/transaction.cpp.s
+.PHONY : transaction.cpp.s
+
+utils/isBlockValid.o: utils/isBlockValid.cpp.o
+.PHONY : utils/isBlockValid.o
+
+# target to build an object file
+utils/isBlockValid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o
+.PHONY : utils/isBlockValid.cpp.o
+
+utils/isBlockValid.i: utils/isBlockValid.cpp.i
+.PHONY : utils/isBlockValid.i
+
+# target to preprocess a source file
+utils/isBlockValid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.i
+.PHONY : utils/isBlockValid.cpp.i
+
+utils/isBlockValid.s: utils/isBlockValid.cpp.s
+.PHONY : utils/isBlockValid.s
+
+# target to generate assembly for a file
+utils/isBlockValid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.s
+.PHONY : utils/isBlockValid.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -257,9 +329,18 @@ help:
 	@echo "... crypto/sha256.o"
 	@echo "... crypto/sha256.i"
 	@echo "... crypto/sha256.s"
+	@echo "... launch.o"
+	@echo "... launch.i"
+	@echo "... launch.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... transaction.o"
+	@echo "... transaction.i"
+	@echo "... transaction.s"
+	@echo "... utils/isBlockValid.o"
+	@echo "... utils/isBlockValid.i"
+	@echo "... utils/isBlockValid.s"
 .PHONY : help
 
 
