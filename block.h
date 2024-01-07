@@ -9,10 +9,14 @@ public:
     std::string sHash;
     int nNonce = -1;
     std::string sData;
+    std::string sExtraData;
+    std::string sMemo;
 
-    Block(std::string sDataIn, std::string sPrevHashIn);
+    Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn = "", std::string sMemoIn = "");
 
     std::string GetHash();
+    std::string GetExtraData() const;
+    std::string GetMemo() const;
     std::string CalculateHash() const;
 };
 
