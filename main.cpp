@@ -1,10 +1,13 @@
-#include "Block.h"
+#include "block.h"
+#include "blockchain.h"
 #include <iostream>
 using namespace std;
 
 int main() {
-    Block testBlock("Test data", "Previous hash");
-    cout << "Block created. Hash: " << testBlock.GetHash() << endl;
+    Blockchain myBlockchain;
+    Block genesisBlock = myBlockchain.createGenesisBlock();
+    myBlockchain.addBlock(genesisBlock);
+    cout << "Genesis block created and added to blockchain. Hash: " << genesisBlock.GetHash() << endl;
     return 0;
 }
 
