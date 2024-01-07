@@ -15,7 +15,8 @@ public:
     Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn = "", std::string sMemoIn = "");
     Block createGenesisBlock();
 
-    std::string GetHash();
+    std::string GetHash() const;
+    std::string GetPrevHash() const; // Added method to get previous hash
     std::string GetExtraData() const;
     std::string GetMemo() const;
     std::string CalculateHash() const;
@@ -34,8 +35,12 @@ string Block::CalculateHash() const {
     return generateSHA256(sData + sPrevHash + std::to_string(nNonce) + sExtraData + sMemo); // Added memo to hash calculation
 }
 
-string Block::GetHash() {
+string Block::GetHash() const {
     return this->CalculateHash();
+}
+
+string Block::GetPrevHash() const {
+    return this->sPrevHash;
 }
 
 string Block::GetExtraData() const {

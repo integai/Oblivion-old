@@ -14,10 +14,11 @@ public:
 
     Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn = "", std::string sMemoIn = "");
 
-    std::string GetHash();
+    std::string GetHash() const;
     std::string GetExtraData() const;
     std::string GetMemo() const;
     std::string CalculateHash() const;
+    std::string GetPrevHash() const;
 };
 
 #endif
