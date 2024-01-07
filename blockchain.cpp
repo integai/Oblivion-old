@@ -9,11 +9,13 @@ public:
     Blockchain();
     int difficulty;
     vector<Block> chain;
-    Block createGenesisBlock() const;
+    Block createGenesisBlock();
+    Block getGenesisBlock() const;
     Block getLatestBlock() const;
     bool isChainValid() const;
     void addBlock(Block &newBlock);
     void MineBlock(Block &newBlock, int difficulty);
+    bool IsEmpty() const;
 };
 
 Blockchain::Blockchain() {
@@ -21,8 +23,16 @@ Blockchain::Blockchain() {
     difficulty = 4;
 }
 
-Block Blockchain::createGenesisBlock() const {
+Block Blockchain::createGenesisBlock() {
     return Block("Genesis Block", "0");
+}
+
+Block Blockchain::getGenesisBlock() const {
+    // Check if the chain is empty before trying to access the genesis block
+    if (IsEmpty()) {
+        throw std::runtime_error("The blockchain is empty. Genesis block does not exist.");
+    }
+    return chain[0];
 }
 
 Block Blockchain::getLatestBlock() const {
@@ -59,4 +69,8 @@ void Blockchain::addBlock(Block &newBlock) {
     newBlock.sPrevHash = getLatestBlock().GetHash();
     MineBlock(newBlock, difficulty);
     chain.push_back(newBlock);
+}
+
+bool Blockchain::IsEmpty() const {
+    return chain.empty();
 }

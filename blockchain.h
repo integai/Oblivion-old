@@ -10,11 +10,13 @@ public:
     int difficulty;
     std::vector<Block> chain;
 
-    Block createGenesisBlock() const;
+    Block createGenesisBlock();
     Block getLatestBlock() const;
     bool isChainValid() const;
     void addBlock(Block &newBlock);
     void MineBlock(Block &newBlock, int difficulty);
+    bool IsEmpty() const;
+    Block getGenesisBlock() const;
 };
 
 #endif
