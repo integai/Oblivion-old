@@ -13,11 +13,12 @@ public:
     std::string sMemo;
 
     Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn = "", std::string sMemoIn = "");
+    Block createGenesisBlock();
 
     std::string GetHash();
     std::string GetExtraData() const;
     std::string GetMemo() const;
-    std::string CalculateHash() const; // Made CalculateHash public
+    std::string CalculateHash() const;
 };
 
 Block::Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDataIn, std::string sMemoIn) {
@@ -27,6 +28,7 @@ Block::Block(std::string sDataIn, std::string sPrevHashIn, std::string sExtraDat
     this->sMemo = sMemoIn;
     this->sHash = CalculateHash();
 }
+
 
 string Block::CalculateHash() const {
     return generateSHA256(sData + sPrevHash + std::to_string(nNonce) + sExtraData + sMemo); // Added memo to hash calculation
