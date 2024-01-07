@@ -13,7 +13,7 @@ public:
     Block createGenesisBlock() const;
     Block getLatestBlock() const;
     bool isChainValid() const;
-    void addBlock(Block newBlock);
+    void addBlock(Block &newBlock);
     void MineBlock(Block &newBlock, int difficulty);
 };
 

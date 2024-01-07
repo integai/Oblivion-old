@@ -12,7 +12,7 @@ public:
     Block createGenesisBlock() const;
     Block getLatestBlock() const;
     bool isChainValid() const;
-    void addBlock(Block newBlock);
+    void addBlock(Block &newBlock);
     void MineBlock(Block &newBlock, int difficulty);
 };
 
@@ -55,10 +55,8 @@ void Blockchain::MineBlock(Block &newBlock, int difficulty) {
     cout << "Block mined: " << newBlock.GetHash() << endl;
 }
 
-void Blockchain::addBlock(Block newBlock) {
+void Blockchain::addBlock(Block &newBlock) {
     newBlock.sPrevHash = getLatestBlock().GetHash();
     MineBlock(newBlock, difficulty);
     chain.push_back(newBlock);
 }
-
-
