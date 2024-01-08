@@ -310,6 +310,30 @@ utils/isBlockValid.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.s
 .PHONY : utils/isBlockValid.cpp.s
 
+utils/isTransactionValid.o: utils/isTransactionValid.cpp.o
+.PHONY : utils/isTransactionValid.o
+
+# target to build an object file
+utils/isTransactionValid.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o
+.PHONY : utils/isTransactionValid.cpp.o
+
+utils/isTransactionValid.i: utils/isTransactionValid.cpp.i
+.PHONY : utils/isTransactionValid.i
+
+# target to preprocess a source file
+utils/isTransactionValid.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.i
+.PHONY : utils/isTransactionValid.cpp.i
+
+utils/isTransactionValid.s: utils/isTransactionValid.cpp.s
+.PHONY : utils/isTransactionValid.s
+
+# target to generate assembly for a file
+utils/isTransactionValid.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Oblivion.dir/build.make CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.s
+.PHONY : utils/isTransactionValid.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -341,6 +365,9 @@ help:
 	@echo "... utils/isBlockValid.o"
 	@echo "... utils/isBlockValid.i"
 	@echo "... utils/isBlockValid.s"
+	@echo "... utils/isTransactionValid.o"
+	@echo "... utils/isTransactionValid.i"
+	@echo "... utils/isTransactionValid.s"
 .PHONY : help
 
 

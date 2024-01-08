@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Oblivion.dir/transaction.cpp.o.d"
   "CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o"
   "CMakeFiles/Oblivion.dir/utils/isBlockValid.cpp.o.d"
+  "CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o"
+  "CMakeFiles/Oblivion.dir/utils/isTransactionValid.cpp.o.d"
   "Oblivion"
   "Oblivion.pdb"
 )
