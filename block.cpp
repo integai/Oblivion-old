@@ -36,7 +36,7 @@ string Block::CalculateHash() const {
 }
 
 string Block::GetHash() const {
-    return this->CalculateHash();
+    return this->sHash; // Return the stored hash instead of calculating it again
 }
 
 string Block::GetPrevHash() const {
