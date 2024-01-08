@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 find_package(OpenSSL REQUIRED)
 
-add_executable(Oblivion main.cpp blockchain.cpp block.cpp crypto/sha256.cpp launch.cpp transaction.cpp utils/isBlockValid.cpp)
+add_executable(Oblivion main.cpp blockchain.cpp block.cpp crypto/sha256.cpp launch.cpp transaction.cpp utils/isBlockValid.cpp utils/isTransactionValid.cpp)
 
 target_include_directories(Oblivion PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(Oblivion OpenSSL::SSL)
