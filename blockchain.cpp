@@ -19,6 +19,7 @@ public:
 };
 
 Blockchain::Blockchain() {
+    chain.reserve(10000); 
     chain.push_back(createGenesisBlock());
     difficulty = 4;
 }
@@ -28,7 +29,6 @@ Block Blockchain::createGenesisBlock() {
 }
 
 Block Blockchain::getGenesisBlock() const {
-    // Check if the chain is empty before trying to access the genesis block
     if (IsEmpty()) {
         throw std::runtime_error("The blockchain is empty. Genesis block does not exist.");
     }
@@ -41,8 +41,8 @@ Block Blockchain::getLatestBlock() const {
 
 bool Blockchain::isChainValid() const {
     for(int i = 1; i < chain.size(); i++) {
-        Block currentBlock = chain[i];
-        Block previousBlock = chain[i - 1];
+        const Block& currentBlock = chain[i]; // Use reference to avoid copying
+        const Block& previousBlock = chain[i - 1]; // Use reference to avoid copying
 
         if(currentBlock.GetHash() != currentBlock.CalculateHash()) {
             return false;
@@ -68,7 +68,7 @@ void Blockchain::MineBlock(Block &newBlock, int difficulty) {
 void Blockchain::addBlock(Block &newBlock) {
     newBlock.sPrevHash = getLatestBlock().GetHash();
     MineBlock(newBlock, difficulty);
-    chain.push_back(newBlock);
+    chain.push_back(std::move(newBlock)); // Use move semantics to avoid copying
 }
 
 bool Blockchain::IsEmpty() const {
